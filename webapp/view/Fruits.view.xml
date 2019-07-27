@@ -1,0 +1,16 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="sai.moola.SaiFioriDemo.controller.Fruits">
+	<App>
+		<pages>
+			<Page title="{i18n>FruitsOS}">
+				<content>
+				    <List noDataText="Drop list items here" items="{ToSupplierFruits}" id="list0">
+				        <items>
+				            <StandardListItem type="Navigation" title="{FruitId}" 
+				                 description="{ path: 'Availability', formatter:'.formatter.getAvailability' }" icon="sap-icon://picture" id="item0"/>
+				        </items>
+				    </List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

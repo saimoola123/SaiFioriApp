@@ -28,7 +28,7 @@ sap.ui.define([], function () {
 				case 'D':
 					return 'Discontinued';
 					break;
-				default: return 'Dont Know';
+				default: return 'Not Valid';
 			}
 		}
 
